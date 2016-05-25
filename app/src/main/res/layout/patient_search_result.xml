@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ohyuna.healthtracker.CircleImageView
+        android:layout_width = "0dp"
+        android:layout_height = "60dp"
+        android:layout_weight = "0.2"
+        android:id = "@+id/pImage"
+    />
+    <TextView
+        android:id="@+id/pID"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight = "0.8"
+        android:layout_marginLeft = "10dp"
+        android:gravity="left|center_vertical"
+        />
+
+
+
+</LinearLayout>

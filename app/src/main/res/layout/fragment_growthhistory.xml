@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="10dp"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:background="#ffffff"
+        android:textSize="12dp"
+        android:layout_weight="1.7" />
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/height"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:background="@color/material_grey_300"
+        android:padding="0dp"
+        android:textSize="12dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:textSize="12dp"
+        android:layout_weight="1"
+        android:background="#ffffff" />
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:background="@color/material_grey_300"
+        android:padding="0dp"
+        android:textSize="12dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/zha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:textSize="12dp"
+        android:layout_weight="1"
+        android:background="#ffffff" />
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/zwa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:background="@color/material_grey_300"
+        android:padding="0dp"
+        android:textSize="12dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/zwh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:textSize="12dp"
+        android:layout_weight="1"
+        android:background="#ffffff" />
+
+</LinearLayout>
